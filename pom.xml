@@ -30,7 +30,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.0.0</version>
 				<configuration>
-					<output directory>target/<output directory>
+					<outputDirectory>target/</outputDirectory>
 
 				</configuration>
 			</plugin>
