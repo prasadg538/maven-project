@@ -37,5 +37,12 @@
 		</plugins>
 		<finalName>WebProject</finalName>
 	</build>
+<distributionManagement>
+    <snapshotRepository>
+        <id>deploymentRepo</id>
+        <name>internal-releases-snapshot</name>
+        <url>http://54.242.73.80:8081/nexus/content/repositories/maven-project/</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
