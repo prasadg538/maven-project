@@ -38,11 +38,11 @@
 		<finalName>WebProject</finalName>
 	</build>
 <distributionManagement>
-    <Repository>
+    <repository>
         <id>deploymentRepo</id>
         <name>internal-release</name>
         <url>http://54.242.73.80:8081/nexus/content/repositories/maven-project/</url>
-    </Repository>
+    </repository>
 </distributionManagement>
 
 </project>
