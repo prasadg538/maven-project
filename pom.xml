@@ -4,7 +4,7 @@
 	<groupId>net.systemshub</groupId>
 	<artifactId>mavenproject</artifactId>
 	<packaging>war</packaging>
-	<version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
 	<name>test</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -38,11 +38,11 @@
 		<finalName>WebProject</finalName>
 	</build>
 <distributionManagement>
-    <snapshotRepository>
+    <Repository>
         <id>deploymentRepo</id>
-        <name>internal-releases-snapshot</name>
+        <name>internal-release</name>
         <url>http://54.242.73.80:8081/nexus/content/repositories/maven-project/</url>
-    </snapshotRepository>
+    </Repository>
 </distributionManagement>
 
 </project>
